@@ -16,7 +16,7 @@ permissions:
   packages: write
 
 env:
-  IMAGE_NAME: python-md-analysis
+  IMAGE_NAME: python-research-env
 
 jobs:
   docker:
