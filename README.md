@@ -215,7 +215,7 @@ The smoke test verifies that major scientific packages can be imported successfu
 The published image is available at:
 
 ```bash
-ghcr.io/<OWNER>/python-research-env:latest
+ghcr.io/tomoki-ueda-cybersec/python-research-env:latest
 ```
 
 ---
@@ -225,7 +225,7 @@ ghcr.io/<OWNER>/python-research-env:latest
 ## Docker
 
 ```bash
-docker pull ghcr.io/<OWNER>/python-research-env:latest
+docker pull ghcr.io/tomoki-ueda-cybersec/python-research-env:latest
 ```
 
 ---
@@ -233,7 +233,7 @@ docker pull ghcr.io/<OWNER>/python-research-env:latest
 ## Apptainer
 
 ```bash
-apptainer pull docker://ghcr.io/<OWNER>/python-research-env:latest
+apptainer pull docker://ghcr.io/tomoki-ueda-cybersec/python-research-env:latest
 ```
 
 ---
@@ -241,7 +241,7 @@ apptainer pull docker://ghcr.io/<OWNER>/python-research-env:latest
 ## Singularity
 
 ```bash
-singularity pull docker://ghcr.io/<OWNER>/python-research-env:latest
+singularity pull docker://ghcr.io/tomoki-ueda-cybersec/python-research-env:latest
 ```
 
 ---
@@ -255,7 +255,7 @@ Start an interactive shell:
 ```bash
 docker run -it \
     -v $(pwd):/workspace \
-    ghcr.io/<OWNER>/python-research-env:latest
+    ghcr.io/tomoki-ueda-cybersec/python-research-env:latest
 ```
 
 Run a Python script:
@@ -263,7 +263,7 @@ Run a Python script:
 ```bash
 docker run --rm \
     -v $(pwd):/workspace \
-    ghcr.io/<OWNER>/python-research-env:latest \
+    ghcr.io/tomoki-ueda-cybersec/python-research-env:latest \
     python /workspace/script.py
 ```
 
@@ -380,7 +380,7 @@ Images are tagged with:
 Example:
 
 ```bash
-ghcr.io/<OWNER>/python-research-env:v1.0.0
+ghcr.io/tomoki-ueda-cybersec/python-research-env:v1.0.0
 ```
 
 Using a fixed version tag allows exact reproduction of previous analyses.
