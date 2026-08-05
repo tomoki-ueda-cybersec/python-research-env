@@ -11,7 +11,7 @@ RUN micromamba install -n base -f /tmp/environment.yml -y && \
 
 WORKDIR /workspace
 
-LABEL org.opencontainers.image.title="Python MD Analysis Container"
+LABEL org.opencontainers.image.title="Python research env"
 LABEL org.opencontainers.image.description="General Python research environment with molecular dynamics analysis tools"
 LABEL org.opencontainers.image.source="https://github.com/<OWNER>/<REPO>"
 LABEL org.opencontainers.image.licenses="MIT"
