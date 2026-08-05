@@ -1,0 +1,142 @@
+name: python-md-analysis
+
+channels:
+  - conda-forge
+
+dependencies:
+
+  ################################
+  # Python
+  ################################
+  - python=3.11
+  - pip
+  - ipython
+
+
+  ################################
+  # Scientific Computing
+  ################################
+  - numpy
+  - scipy
+  - pandas
+  - xarray
+  - h5py
+  - pyarrow
+
+
+  ################################
+  # Molecular Dynamics
+  ################################
+  - ambertools
+  - mdanalysis
+  - mdtraj
+
+
+  ################################
+  # Structural Biology
+  ################################
+  - biopython
+  - gemmi
+  - freesasa
+
+
+  ################################
+  # Cheminformatics
+  ################################
+  - rdkit
+  - openbabel
+  - prolif
+
+
+  ################################
+  # Machine Learning / Statistics
+  ################################
+  - scikit-learn
+  - statsmodels
+
+
+  ################################
+  # Data Processing / Performance
+  ################################
+  - numba
+  - joblib
+  - dask
+  - distributed
+  - tqdm
+
+
+  ################################
+  # Graph Analysis
+  ################################
+  - networkx
+  - python-igraph
+
+
+  ################################
+  # Visualization
+  ################################
+  - matplotlib
+  - seaborn
+  - plotly
+  - altair
+  - pillow
+
+
+  ################################
+  # Notebook Environment
+  ################################
+  - jupyterlab
+  - ipywidgets
+  - nbconvert
+
+
+  ################################
+  # File / Web Processing
+  ################################
+  - openpyxl
+  - lxml
+  - beautifulsoup4
+  - requests
+  - httpx
+
+
+  ################################
+  # Document Processing
+  ################################
+  - pypdf
+  - pdfplumber
+  - python-docx
+  - python-pptx
+  - reportlab
+
+
+  ################################
+  # Configuration / Utilities
+  ################################
+  - pyyaml
+  - rich
+  - loguru
+
+
+  ################################
+  # CLI Development
+  ################################
+  - click
+  - typer
+
+
+  ################################
+  # Development / Testing
+  ################################
+  - pytest
+  - black
+  - ruff
+  - mypy
+  - pre-commit
+
+
+  ################################
+  # pip only packages
+  ################################
+  - pip:
+      - umap-learn
